@@ -1,0 +1,130 @@
+=== Citizen Complaint System ===
+Your complaints are kept in memory only and are erased when you quit.
+No personal details (name, phone, address) are asked for or stored.
+
+Enter your district: 
+  Please type something.
+Enter your district: Western Area Urban
+Your anonymous reference code is CIT-688CBE.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 1
+
+What is the complaint about?
+  1) Water
+  2) Electricity
+  3) Roads
+  4) Health Services
+  5) Education
+  6) Sanitation
+  7) Other
+Choose 1-7: 1
+Describe the problem: 
+  Please type something.
+Describe the problem: No running water in our ward for 5 days.
+Saved complaint CMP-0001.
+Thank you. Your complaint ID is CMP-0001.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 1
+
+What is the complaint about?
+  1) Water
+  2) Electricity
+  3) Roads
+  4) Health Services
+  5) Education
+  6) Sanitation
+  7) Other
+Choose 1-7: 6
+Describe the problem: Drain blocked near the school.
+Saved complaint CMP-0002.
+Thank you. Your complaint ID is CMP-0002.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 2
+
+[CMP-0001] Water | Western Area Urban | Status: Submitted
+    Filed by: CIT-688CBE
+    Details : No running water in our ward for 5 days.
+[CMP-0002] Sanitation | Western Area Urban | Status: Submitted
+    Filed by: CIT-688CBE
+    Details : Drain blocked near the school.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 4
+Complaint ID (e.g. CMP-0001): cmp-0001
+Current status: Submitted
+Choose the new status:
+  1) Submitted
+  2) Under Review
+  3) In Progress
+  4) Resolved
+Choose 1-4: 2
+Add a short note (optional): Assigned to Water Dept.
+CMP-0001 is now 'Under Review'.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 4
+Complaint ID (e.g. CMP-0001): CMP-0001
+Current status: Under Review
+Choose the new status:
+  1) Submitted
+  2) Under Review
+  3) In Progress
+  4) Resolved
+Choose 1-4: 4
+Add a short note (optional): 
+Error: Cannot go from 'Under Review' to 'Resolved'. Statuses must follow the normal order.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 3
+
+Which status?
+  1) Submitted
+  2) Under Review
+  3) In Progress
+  4) Resolved
+Choose 1-4: 2
+[CMP-0001] Water | Western Area Urban | Status: Under Review
+    Filed by: CIT-688CBE
+    Details : No running water in our ward for 5 days.
+
+--- Menu ---
+  1) File a complaint
+  2) View all complaints
+  3) View complaints by status
+  4) Update a complaint's status
+  5) Quit
+Choose 1-5: 5
+Goodbye. All complaints have been erased from memory.
