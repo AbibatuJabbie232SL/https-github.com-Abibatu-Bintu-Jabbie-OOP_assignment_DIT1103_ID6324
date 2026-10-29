@@ -78,4 +78,4 @@ Thank you. Your complaint ID is CMP-0001.
 See `sample_output.txt` for the full session.
 
 ## Author
-Student: _your name and ID_ | Lecturer: Amandus Benjamin Coker
+Student: _Abibatu Bintu Jabbie and ID_ | Lecturer: Julius Lagah
